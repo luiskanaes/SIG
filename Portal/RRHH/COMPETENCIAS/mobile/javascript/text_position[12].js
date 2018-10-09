@@ -1,0 +1,1 @@
+﻿positionForPages[12]={page:12,positions:[{word:"\"Actúo de acuerdo a los ",left:0.356891,top:0.524883,width:0.166436,height:0.027431},{word:"procedimientos establecidos, pues ",left:0.321578,top:0.551344,width:0.237082,height:0.027431},{word:"facilitan mi trabajo\"",left:0.372413,top:0.577804,width:0.130852,height:0.027431}]};

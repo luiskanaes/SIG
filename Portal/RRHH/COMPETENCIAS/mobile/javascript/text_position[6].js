@@ -1,0 +1,1 @@
+﻿positionForPages[6]={page:6,positions:[{word:"\"Todos conocen su trabajo, ",left:0.656415,top:0.269990,width:0.187276,height:0.027431},{word:"a ﬁnal de año vere cómo les fué\"",left:0.636489,top:0.296451,width:0.222608,height:0.027431}]};

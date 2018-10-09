@@ -1,0 +1,1 @@
+﻿positionForPages[4]={page:4,positions:[{word:"\"Cada uno conoce las debilidades de ",left:0.651718,top:0.269774,width:0.254389,height:0.027431},{word:"su área, yo respondo por la mía\"",left:0.666775,top:0.296235,width:0.219734,height:0.027431}]};

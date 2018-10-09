@@ -1,0 +1,17 @@
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\DataAccess.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\DataAccess.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\BusinessEntity.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\microsoft.practices.enterpriselibrary.common.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\microsoft.practices.enterpriselibrary.data.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\UserCode.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\UserCode.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\Microsoft.Practices.Unity.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.pdb
+D:\CGO\SIG\SolSystem\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem\DataAccess\obj\Release\DataAccess.dll
+D:\CGO\SIG\SolSystem\DataAccess\obj\Release\DataAccess.pdb

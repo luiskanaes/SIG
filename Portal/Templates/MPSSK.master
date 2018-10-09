@@ -1,0 +1,182 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPSSK.master.cs" Inherits="Templates_MPSSK" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1"  %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11;IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no" />
+    <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favico.ico" />
+    <link rel="Stylesheet" href="../Styles/default.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="../js/DOMAlert.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrapSSK.css" type="text/css" media="screen" />
+    
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../Content/dist/css/AdminLTE.css" />
+    <link rel="stylesheet" href="../Content/dist/css/_all-skins.css" />
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="ScriptManager1" EnablePageMethods="true" EnableScriptGlobalization="True">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+      <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+            <ContentTemplate>
+                <div class="wrapper">
+
+                    <header class="main-header">
+                        <!-- Logo -->
+                        <a href="#" class="logo">
+                            <!-- mini logo for sidebar mini 50x50 pixels -->
+                            <span class="logo-mini"><b>3</b>65</span>
+                            <!-- logo for regular state and mobile devices -->
+                            <span class="logo-lg"><b>SSK</b>.</span>
+                        </a>
+                        <!-- Header Navbar: style can be found in header.less -->
+                        <nav class="navbar navbar-static-top">
+                            <!-- Sidebar toggle button-->
+                            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+
+                                <asp:Image ID="Image1" runat="server" ImageUrl="~/imagenes/MenuIcono.png" />
+                            </a>
+
+                            <div class="navbar-custom-menu">
+                            </div>
+                        </nav>
+                    </header>
+                    <!-- Left side column. contains the logo and sidebar -->
+                    <aside class="main-sidebar">
+                        <!-- sidebar: style can be found in sidebar.less -->
+                        <section class="sidebar">
+                            <!-- Sidebar user panel -->
+                            <div class="user-panel">
+                                <div class="pull-left image">
+
+                                    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/Foto_Fondo100x100.png" class="img-circle" />
+                                </div>
+                                <div class="pull-left info">
+                                    <p>
+                                        <asp:Label ID="lblNombreUsuario" runat="server" Text="Label" Font-Size="9pt"></asp:Label></p>
+                                    <a href="#">
+                                        <asp:Image ID="Image2" runat="server" ImageUrl="~/images/green_16x16.png" />Online</a>
+                                   
+                                </div>
+                                
+                            </div>
+                          
+                            <div class="sidebar-menu" data-widget="tree">
+                                <asp:Menu ID="Menu2" runat="server" CssClass="menu"  IncludeStyleBlock="false">
+                                    <LevelMenuItemStyles>
+                                        <asp:MenuItemStyle CssClass="main_menu" />
+                                        <asp:MenuItemStyle CssClass="level_menu" />
+                                    </LevelMenuItemStyles>
+                                </asp:Menu>
+                                <style>
+                                    .main_menu {
+                                        background-color: #222d32;
+                                       
+                                        color: #dde4ec;
+                                        display: block;
+                                        line-height: 1.4em;
+                                        padding: 4px 20px;
+                                        text-decoration: none;
+                                        white-space: nowrap;
+                                          
+
+                                    }
+
+                                        .main_menu:hover {
+                                            border: 1px #4e667d solid;
+                                        }
+
+                                    .level_menu {
+                                        background-color: #465c71;
+                                        border: 1px #4e667d solid;
+                                        color: #dde4ec;
+                                        display: block;
+                                        line-height: 1.35em;
+                                        padding: 4px 20px;
+                                        text-decoration: none;
+                                        white-space: nowrap;
+                                    }
+
+                                        .level_menu:hover {
+                                            background-color: #ffd800;
+                                            color: #000;
+                                            text-decoration: none;
+                                        }
+                                </style>
+
+                            </div>
+
+
+                        </section>
+                        <!-- /.sidebar -->
+                    </aside>
+
+                    <!-- Content Wrapper. Contains page content -->
+                    <div class="content-wrapper">
+                        <!-- Content Header (Page header) -->
+                       
+
+                        <!-- Main content -->
+                        <section class="content">
+
+                            <div class="row" style="padding-top: 0px;padding-right: 20px;padding-bottom: 10px; padding-left: 20px;">
+                                <asp:ImageButton ID="btnUpdate" runat="server" CausesValidation="False" ImageUrl="~/images/Refresh.png" ToolTip="Actualizar" OnClick="btnUpdate_Click" />
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+
+
+                            </div>
+
+                        </section>
+
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.content-wrapper -->
+                    <footer class="main-footer">
+
+                        <strong>Copyright &copy;  <%: DateTime.Now.Year %> - <b>"El éxito empresarial necesita administrarse."</b></strong>
+
+                    </footer>
+
+
+                </div>
+               
+
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </form>
+     <!-- ./wrapper -->
+
+               
+</body>
+</html>

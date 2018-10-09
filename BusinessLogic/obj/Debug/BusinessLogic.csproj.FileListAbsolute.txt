@@ -1,0 +1,40 @@
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\BusinessEntity.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\DataAccess.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\microsoft.practices.enterpriselibrary.logging.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\UserCode.pdb
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\CGO\SIG\SolSystem - copia\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\BusinessEntity.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\DataAccess.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\microsoft.practices.enterpriselibrary.logging.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\DataAccess.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\UserCode.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\CGO\SIG\SolSystem\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\CGO\SIG\SolSystem\BusinessLogic\obj\Debug\BusinessLogic.pdb

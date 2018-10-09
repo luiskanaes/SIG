@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99521D42-012B-4BE0-A6C1-9B5BF03284BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessEntity</RootNamespace>
+    <AssemblyName>BusinessEntity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BE_ASIGNACION_RECURSOS.cs" />
+    <Compile Include="BE_BUENAS_IDEAS.cs" />
+    <Compile Include="BE_CARTA_COBRAZAS.cs" />
+    <Compile Include="BE_CARTA_COBRAZAS_APROBACIONES.cs" />
+    <Compile Include="BE_CARTA_COBRAZAS_DETALLE.cs" />
+    <Compile Include="BE_CARTA_COBRAZAS_FILE.cs" />
+    <Compile Include="BE_CECOS.cs" />
+    <Compile Include="BE_DETALLEREQUERIMIENTO.cs" />
+    <Compile Include="BE_EQUIPO_RESPONSABLE.cs" />
+    <Compile Include="BE_EQUIPO_TRABAJO.cs" />
+    <Compile Include="BE_HSEC_ANUNCIOS.cs" />
+    <Compile Include="BE_INTRANET_BANER.cs" />
+    <Compile Include="BE_LOG_SOLPED.cs" />
+    <Compile Include="BE_LOG_SOLPED_DETALLE.cs" />
+    <Compile Include="BE_MOD.cs" />
+    <Compile Include="BE_MOD_REQUERIMIENTO.cs" />
+    <Compile Include="BE_MOD_REQUERIMIENTO_DETALLE.cs" />
+    <Compile Include="BE_MOD_REQUERIMIENTO_PERSONAL.cs" />
+    <Compile Include="BE_MOI.cs" />
+    <Compile Include="BE_OPE_DETALLE_ACUERDOS.cs" />
+    <Compile Include="BE_OPE_DETALLE_PERSONAL.cs" />
+    <Compile Include="BE_OPE_MINUTA.cs" />
+    <Compile Include="BE_OPE_TEMAS.cs" />
+    <Compile Include="BE_Perfil.cs" />
+    <Compile Include="BE_PERSONAL.cs" />
+    <Compile Include="BE_REQUERIMIENTO.cs" />
+    <Compile Include="BE_RequerimientoMovil.cs" />
+    <Compile Include="BE_RequerimientoMovil_Detalle.cs" />
+    <Compile Include="BE_RESPONSABLE_PROCESOS.cs" />
+    <Compile Include="BE_RRHH_COMPETENCIAS_EVAL.cs" />
+    <Compile Include="BE_RRHH_DESEMPENIO_ETAPAS.cs" />
+    <Compile Include="BE_RRHH_DESEMPENIO_FICHA.cs" />
+    <Compile Include="BE_RRHH_DESEMPENIO_OBJETIVOS.cs" />
+    <Compile Include="BE_RRHH_DESEMPENIO_OBJETIVOS_MSG.cs" />
+    <Compile Include="BE_RRHH_ESTRELLA_NOMINACION.cs" />
+    <Compile Include="BE_RRHH_ESTRELLA_NOMINACION_OBRA.cs" />
+    <Compile Include="BE_RRHH_FORMATIVO_EXAMEN.cs" />
+    <Compile Include="BE_RRHH_FORMATIVO_EXAM_CARTILLA.cs" />
+    <Compile Include="BE_RRHH_FORMATIVO_FASE.cs" />
+    <Compile Include="BE_RRHH_FORMATIVO_FICHA.cs" />
+    <Compile Include="BE_RRHH_FORMATIVO_PLANES.cs" />
+    <Compile Include="BE_RRHH_PERSONAL_EMPRESA.cs" />
+    <Compile Include="BE_RRHH_SOLICITUD_ASIGNACION.cs" />
+    <Compile Include="BE_RRHH_SOL_FORMATIVO.cs" />
+    <Compile Include="BE_RRHH_SOL_HITO.cs" />
+    <Compile Include="BE_SOLPED.cs" />
+    <Compile Include="BE_SOL_ANDAMIOS.cs" />
+    <Compile Include="BE_TBL_RequerimientoSubDetalle.cs" />
+    <Compile Include="BE_TBSOLICITUD_PERMISOS.cs" />
+    <Compile Include="BE_TBSOLICITUD_PERMISOS_DIA.cs" />
+    <Compile Include="BE_TBUSUARIO.cs" />
+    <Compile Include="BE_Usuario.cs" />
+    <Compile Include="BE_valorizar_equipoMenor.cs" />
+    <Compile Include="BE_valorizar_ValorPeriodo.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

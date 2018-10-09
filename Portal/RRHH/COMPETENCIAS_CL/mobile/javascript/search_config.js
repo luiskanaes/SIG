@@ -1,0 +1,1 @@
+﻿var textForPages = ["COMPETENCIAS                                                                     COMPETENCIAS                                                               ORGANIZACIONALES                                                              ORGANIZACIONALES","","","","","","","","","","","","","","",""];

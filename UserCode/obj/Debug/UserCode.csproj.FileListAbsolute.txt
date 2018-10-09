@@ -1,0 +1,14 @@
+D:\CGO\SIG\SolSystem - copia\UserCode\bin\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem - copia\UserCode\bin\Debug\UserCode.pdb
+D:\CGO\SIG\SolSystem - copia\UserCode\bin\Debug\BusinessEntity.dll
+D:\CGO\SIG\SolSystem - copia\UserCode\bin\Debug\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem - copia\UserCode\obj\Debug\UserCode.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem - copia\UserCode\obj\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem - copia\UserCode\obj\Debug\UserCode.pdb
+D:\CGO\SIG\SolSystem\UserCode\bin\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem\UserCode\bin\Debug\UserCode.pdb
+D:\CGO\SIG\SolSystem\UserCode\bin\Debug\BusinessEntity.dll
+D:\CGO\SIG\SolSystem\UserCode\bin\Debug\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem\UserCode\obj\Debug\UserCode.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem\UserCode\obj\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem\UserCode\obj\Debug\UserCode.pdb

@@ -1,0 +1,105 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SiteWeb.master.cs" Inherits="SiteWeb" %>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+   <title> .:: SSK ::.</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="Desde 1998, brindamos servicios especializados en construcción industrial y montaje de importantes proyectos y procesos productivos"/>
+    <meta name="keywords" content="soluciones,administrativas, ingenierai, diseño, contruccion, ssk, software"/>
+    <meta name="author" content="carlos carbonell"/>
+    <meta name="language" content="es"/>
+    <meta name="revisit-after" content="15 days"/>
+    <meta name="robots" content="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <link rel="stylesheet" href="~/Content/SiteSSK.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="~/Content/bootstrapSSKIntranet.css" type="text/css" media="screen" />
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="~/Styles/flexslider.css" type="text/css" media="screen" />
+ 
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional"> 
+        <ContentTemplate> 
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/imagenes/ssk80x30.fw.png" />
+
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                        <%--<li><a runat="server" href="~/">INICIO</a></li>
+                        <li><a runat="server" href="~/">CORREO</a></li>
+                 
+                        <li><a runat="server" href="~/">HSEC</a></li>
+                        <li><a runat="server" href="~/">PUBLICACIONES</a></li>--%>
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Login">INGRESAR</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+<%--                        <LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %> !</a></li>
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>--%>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+          <%--  <hr />
+            <footer>
+               <p> <asp:Image ID="Image2" runat="server" ImageUrl="~/imagenes/ssk80x30.fw.png" />
+                     &copy; <%: DateTime.Now.Year %> - <b>SSK - Ingeniería y Construcción S.A.C </b></p>
+            </footer>--%>
+        </div>
+                
+    </ContentTemplate> 
+</asp:UpdatePanel> 
+    </form>
+</body>
+</html>

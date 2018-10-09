@@ -1,0 +1,5 @@
+D:\CGO\SIG\SolSystem\BusinessEntity\bin\Release\BusinessEntity.dll
+D:\CGO\SIG\SolSystem\BusinessEntity\bin\Release\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem\BusinessEntity\obj\Release\BusinessEntity.dll
+D:\CGO\SIG\SolSystem\BusinessEntity\obj\Release\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem\BusinessEntity\obj\Release\BusinessEntity.csprojResolveAssemblyReference.cache

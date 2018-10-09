@@ -1,0 +1,157 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPPortal.master.cs" Inherits="Templates_MPPortal" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>.:: ICSK ::.</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="Desde 1998, brindamos servicios especializados en construcción industrial y montaje de importantes proyectos y procesos productivos"/>
+    <meta name="keywords" content="soluciones,administrativas, ingenierai, diseño, contruccion, ssk, software"/>
+    <meta name="author" content="carlos carbonell"/>
+    <meta name="language" content="es"/>
+    <meta name="revisit-after" content="15 days"/>
+    <meta name="robots" content="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="Stylesheet" href="../Styles/default.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="../js/DOMAlert.js"></script>
+ 
+    <link rel="stylesheet" href="~/Content/SiteSSK.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="~/Content/bootstrapSSK.css" type="text/css" media="screen" />
+     <link rel="Stylesheet" href="~/Content/timeline.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/lightbox.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="../imagenes/favicon.ico"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="ScriptManager1" EnablePageMethods="true" EnableScriptGlobalization="True">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+            
+            <ContentTemplate>
+
+                <%--<div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" runat="server" href="~/Principal.aspx">
+                                <asp:Image ID="Image1" runat="server" ImageUrl="~/imagenes/ssk80x30.fw.png" />
+                            </a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   
+                            <asp:Menu ID="Menu1" runat="server"
+                                IncludeStyleBlock="false" Orientation="Horizontal"
+                                CssClass="nav navbar-nav"
+                                StaticMenuStyle-CssClass="nav navbar-nav"
+                                DynamicMenuStyle-CssClass="dropdown-menu">
+                            </asp:Menu>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>--%>
+        <div class="navbar navbar-default" >
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                            class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                   <a class="navbar-brand" runat="server" href="~/Principal.aspx">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/imagenes/sigdo-koppers.png" />
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" RenderingMode="List"
+                        IncludeStyleBlock="false" StaticMenuStyle-CssClass="nav navbar-nav" DynamicMenuStyle-CssClass="dropdown-menu">
+                    </asp:Menu>
+                </div>
+            </div>
+        </div>
+                <div>
+                    <div class="container body-content">
+                        <br /><br />
+                       
+                        <div class="row">
+                             <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <asp:Image ID="Image3" runat="server" ImageUrl="~/imagenes/user_suit.ico" />
+                                            <b>Bienvenido: </b>
+                                            <asp:Label ID="lblNombreUsuario" runat="server" Font-Bold="True" Font-Size="10pt" ForeColor="#000000"></asp:Label>
+                                        </div>
+                                        <div class="col-md-6" style="text-align :right ; font-size:10pt">
+                                            <script>
+                                                var mydate = new Date();
+                                                var year = mydate.getYear();
+                                                if (year < 1000)
+                                                    year += 1900;
+                                                var day = mydate.getDay();
+                                                var month = mydate.getMonth();
+                                                var daym = mydate.getDate();
+                                                if (daym < 10)
+                                                    daym = "0" + daym;
+
+                                                var dayarray = new Array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "S&aacute;bado");
+                                                var montharray = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                                                document.write("<small><font color='#000000' face='Arial'>" + "San Isidro, Lima - Perú. " + dayarray[day] + " " + daym + " de " + montharray[month] + " de " + year + "</font></small>");
+
+                                            </script>
+                                        </div>
+
+                                    </div>
+                                     
+                                </div>
+                            </div>
+                        </div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <hr />
+                        <footer>
+                            <p>
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/imagenes/sigdo-koppers40x40.fw.png" />
+                                &copy; <%: DateTime.Now.Year %> - <b>ICSK Ingeniería y Construcción</b>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </form>
+</body>
+</html>

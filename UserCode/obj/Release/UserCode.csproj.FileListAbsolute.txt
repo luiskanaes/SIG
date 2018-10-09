@@ -1,0 +1,7 @@
+D:\CGO\SIG\SolSystem\UserCode\bin\Release\UserCode.dll
+D:\CGO\SIG\SolSystem\UserCode\bin\Release\UserCode.pdb
+D:\CGO\SIG\SolSystem\UserCode\bin\Release\BusinessEntity.dll
+D:\CGO\SIG\SolSystem\UserCode\bin\Release\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem\UserCode\obj\Release\UserCode.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem\UserCode\obj\Release\UserCode.dll
+D:\CGO\SIG\SolSystem\UserCode\obj\Release\UserCode.pdb

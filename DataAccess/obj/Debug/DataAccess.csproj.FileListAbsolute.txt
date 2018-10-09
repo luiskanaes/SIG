@@ -1,0 +1,34 @@
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\DataAccess.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\DataAccess.pdb
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\BusinessEntity.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\microsoft.practices.enterpriselibrary.common.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\microsoft.practices.enterpriselibrary.data.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\Microsoft.Practices.Unity.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\UserCode.pdb
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\CGO\SIG\SolSystem - copia\DataAccess\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+D:\CGO\SIG\SolSystem - copia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem - copia\DataAccess\obj\Debug\DataAccess.dll
+D:\CGO\SIG\SolSystem - copia\DataAccess\obj\Debug\DataAccess.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\DataAccess.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\DataAccess.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\BusinessEntity.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\microsoft.practices.enterpriselibrary.common.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\microsoft.practices.enterpriselibrary.data.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\UserCode.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\BusinessEntity.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\UserCode.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\CGO\SIG\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+D:\CGO\SIG\SolSystem\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\CGO\SIG\SolSystem\DataAccess\obj\Debug\DataAccess.dll
+D:\CGO\SIG\SolSystem\DataAccess\obj\Debug\DataAccess.pdb

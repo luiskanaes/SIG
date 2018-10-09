@@ -1,0 +1,87 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.Mobile.master.cs" Inherits="Site_Mobile" %>
+
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1" runat="server">
+   
+    <title> .:: ICSK ::.</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="Desde 1998, brindamos servicios especializados en construcción industrial y montaje de importantes proyectos y procesos productivos"/>
+    <meta name="keywords" content="soluciones,administrativas, ingenierai, diseño, contruccion, ssk, software"/>
+    <meta name="author" content="carlos carbonell"/>
+    <meta name="language" content="es"/>
+    <meta name="revisit-after" content="15 days"/>
+    <meta name="robots" content="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+    <link rel="stylesheet" href="~/Content/SiteSSK.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="~/Content/bootstrapSSK.css" type="text/css" media="screen" />
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="~/Styles/flexslider.css" type="text/css" media="screen" />
+    <%--<asp:ContentPlaceHolder runat="server" ID="HeadContent" />--%>
+
+     <script type="text/javascript">
+        fondos = new Array();
+        fondos[0] = "Imagenes/login-07_v.jpg";
+        fondos[1] = "Imagenes/login-06_v.jpg";
+        fondos[2] = "Imagenes/login-5_v.jpg";
+        fondos[3] = "Imagenes/login-04_v.jpg";
+        fondos[4] = "Imagenes/login-03.jpg";
+        fondos[5] = "Imagenes/login-02.jpg";
+        fondos[6] = "Imagenes/login-01.jpg";
+        // también se puede crear un array así
+        // var fondos = ["images/fondo.png","images/fondo1.png","images/fondo2.png"]
+
+        function fondoBody() {
+            var image = fondos[Math.floor(Math.random() * fondos.length)]
+            document.body.style.backgroundImage = "url(" + image + ")";
+
+        }
+    </script>
+
+</head>
+<body onLoad="javascript:fondoBody();">
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="ScriptManager1">
+            
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional"> 
+        <ContentTemplate> 
+        <div>
+        
+            
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="content-wrapper main-content clear-fix">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </section>
+            <friendlyUrls:ViewSwitcher ID="ViewSwitcher1" runat="server" />
+        </div>
+        </ContentTemplate> 
+        </asp:UpdatePanel> 
+    </form>
+</body>
+</html>

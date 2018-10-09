@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B96029D6-83B9-4423-A4FF-A01FA72A93A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="microsoft.practices.enterpriselibrary.common, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Portal\DDL\microsoft.practices.enterpriselibrary.common.dll</HintPath>
+    </Reference>
+    <Reference Include="microsoft.practices.enterpriselibrary.data, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Portal\DDL\microsoft.practices.enterpriselibrary.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Conexion\Util.cs" />
+    <Compile Include="Conexion\UtilCareMenor.cs" />
+    <Compile Include="Conexion\Utilitarios.cs" />
+    <Compile Include="Conexion\UtilMobile.cs" />
+    <Compile Include="DA_ASIGNACION_RECURSOS.cs" />
+    <Compile Include="DA_BE_RRHH_PERSONAL_EMPRESA.cs" />
+    <Compile Include="DA_BUENAS_IDEAS.cs" />
+    <Compile Include="DA_CARTA_COBRAZAS.cs" />
+    <Compile Include="DA_CARTA_COBRAZAS_DETALLE.cs" />
+    <Compile Include="DA_CECOS.cs" />
+    <Compile Include="DA_CJI3.cs" />
+    <Compile Include="DA_ENLACES_INTRANET.cs" />
+    <Compile Include="DA_EQUIPO_RESPONSABLE.cs" />
+    <Compile Include="DA_EQUIPO_TRABAJO.cs" />
+    <Compile Include="DA_HSEC_ANUNCIOS.cs" />
+    <Compile Include="DA_INTRANET.cs" />
+    <Compile Include="DA_INTRANET_BANER.cs" />
+    <Compile Include="DA_LOGISTICA.cs" />
+    <Compile Include="DA_LOG_SOLPED.cs" />
+    <Compile Include="DA_LOG_SOLPED_DETALLE.cs" />
+    <Compile Include="DA_MOBILE.cs" />
+    <Compile Include="DA_MOD_REQUERIMIENTO.cs" />
+    <Compile Include="DA_OPE_DETALLE_ACUERDOS.cs" />
+    <Compile Include="DA_OPE_DETALLE_PERSONAL.cs" />
+    <Compile Include="DA_OPE_MINUTA.cs" />
+    <Compile Include="DA_OPE_TEMAS.cs" />
+    <Compile Include="DA_PERSONAL.cs" />
+    <Compile Include="DA_REQUERIMIENTO.cs" />
+    <Compile Include="DA_RESPONSABLE_PROCESOS.cs" />
+    <Compile Include="DA_RO.cs" />
+    <Compile Include="DA_RRHH_COMPETENCIAS_EVAL.cs" />
+    <Compile Include="DA_RRHH_DESEMPENIO_ETAPAS.cs" />
+    <Compile Include="DA_RRHH_DESEMPENIO_FICHA.cs" />
+    <Compile Include="DA_RRHH_DESEMPENIO_OBJETIVOS.cs" />
+    <Compile Include="DA_RRHH_DESEMPENIO_OBJETIVOS_MSG.cs" />
+    <Compile Include="DA_RRHH_ESTRELLA_NOMINACION.cs" />
+    <Compile Include="DA_RRHH_ESTRELLA_NOMINACION_OBRA.cs" />
+    <Compile Include="DA_RRHH_FORMATIVO_EXAMEN.cs" />
+    <Compile Include="DA_RRHH_FORMATIVO_EXAM_CARTILLA.cs" />
+    <Compile Include="DA_RRHH_FORMATIVO_FICHA.cs" />
+    <Compile Include="DA_RRHH_PERSONAL_EMPRESA.cs" />
+    <Compile Include="DA_RRHH_SOLICITUD_ASIGNACION.cs" />
+    <Compile Include="DA_RRHH_SOL_FORMATIVO.cs" />
+    <Compile Include="DA_RRHH_SOL_HITO.cs" />
+    <Compile Include="DA_Seguridad.cs" />
+    <Compile Include="DA_SOLPED.cs" />
+    <Compile Include="DA_SOL_ANDAMIOS.cs" />
+    <Compile Include="DA_TBL_RequerimientoSubDetalle.cs" />
+    <Compile Include="DA_TBSOLICITUD_PERMISOS.cs" />
+    <Compile Include="DA_TBSOLICITUD_PERMISOS_DIA.cs" />
+    <Compile Include="DA_valorizar_equipoMenor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
+      <Project>{99521d42-012b-4be0-a6c1-9b5bf03284ba}</Project>
+      <Name>BusinessEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserCode\UserCode.csproj">
+      <Project>{1d60f7c1-3967-46d7-a831-ab7a28e15f9a}</Project>
+      <Name>UserCode</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

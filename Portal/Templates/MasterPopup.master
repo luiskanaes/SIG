@@ -1,0 +1,72 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPopup.master.cs" Inherits="Templates_MasterPopup" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title> .:: ISCK ::.</title>
+    <link rel="shortcut icon" href="../imagenes/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    <meta name="description" content="Desde 1998, brindamos servicios especializados en construcción industrial y montaje de importantes proyectos y procesos productivos"/>
+    <meta name="keywords" content="soluciones,administrativas, ingenieria diseño, contruccion, ssk, software"/>
+    <meta name="author" content="carlos carbonell"/>
+    <meta name="language" content="es"/>
+    <meta name="revisit-after" content="15 days"/>
+    <meta name="robots" content="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="Stylesheet" href="../Styles/default.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="../js/DOMAlert.js"></script>
+ 
+    <link rel="stylesheet" href="../Content/SiteSSK.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../Content/bootstrapSSK.css" type="text/css" media="screen" />
+     <link rel="Stylesheet" href="../Content/timeline.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/lightbox.css" type="text/css" media="screen" />
+	
+	<!-- [if lt IE 9]
+		<script
+		 src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <!--[if lt IE 7 ]> <html lang="en" class="ie6 ielt8"> <![endif]-->
+    <!--[if IE 7 ]>    <html lang="en" class="ie7 ielt8"> <![endif]-->
+    <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 10%;
+        }
+        body{
+
+            padding-top:5px;
+        }
+    </style>
+</head>
+<body>
+    <form id="Form1" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="True">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+
+            <ContentTemplate>
+
+                <div class="main">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+
+                <div class="footer">
+                    <div style="text-align: center; font-size: 1em; color: #000000; font-weight: bold;">
+                    </div>
+                </div>
+
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </form>
+</body>
+</html>

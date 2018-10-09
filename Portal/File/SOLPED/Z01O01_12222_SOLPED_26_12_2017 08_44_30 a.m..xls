@@ -1,0 +1,15 @@
+<table rules="all" border="1">
+	<tr>
+		<th scope="col">#</th><th scope="col">Ticket</th><th scope="col">Creado por</th><th scope="col">Solicitante</th><th scope="col">SI</th><th scope="col">Tipo Solicitud</th><th scope="col">Fecha Solicitud</th><th scope="col">Comentarios</th><th scope="col">Estado</th><th scope="col">Tipo</th><th scope="col">Codigo</th><th scope="col">Fecha atencion</th><th scope="col">Observaciones</th>
+	</tr><tr>
+		<td>1</td><td>16082-00110</td><td>J.ESCALANTE</td><td>I.OSCANOA</td><td>&nbsp;</td><td>EQU. Y MAT.</td><td>23/08/2017</td><td>&nbsp;</td><td>PENDIENTE ATENCION</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>2</td><td>16082-01012</td><td>J.ESCALANTE</td><td>J.CHORRES</td><td>&nbsp;</td><td>EQU. Y MAT.</td><td>23/08/2017</td><td>&nbsp;</td><td>PENDIENTE ATENCION</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>3</td><td>Z1O01-11111</td><td>C.CARBONELL</td><td>L.CANALES</td><td>69</td><td>EQU. Y MAT.</td><td>02/10/2017</td><td>es una prueba</td><td>PENDIENTE ATENCION</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>4</td><td>Z1O01-12340</td><td>C.CARBONELL</td><td>J.PAGAN</td><td>&nbsp;</td><td>SERV. TRANSP.</td><td>02/10/2017</td><td>prueba #3</td><td>PENDIENTE ATENCION</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>5</td><td>Z1O01-12345</td><td>C.CARBONELL</td><td>J.PAGAN</td><td>123</td><td>SERV. TRANSP.</td><td>02/10/2017</td><td>PRUEBA #3</td><td>PENDIENTE ATENCION</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr>
+</table>
