@@ -12,3 +12,10 @@ D:\CGO\SIG\SolSystem\UserCode\bin\Debug\BusinessEntity.pdb
 D:\CGO\SIG\SolSystem\UserCode\obj\Debug\UserCode.csprojResolveAssemblyReference.cache
 D:\CGO\SIG\SolSystem\UserCode\obj\Debug\UserCode.dll
 D:\CGO\SIG\SolSystem\UserCode\obj\Debug\UserCode.pdb
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\UserCode\bin\Debug\UserCode.dll
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\UserCode\bin\Debug\UserCode.pdb
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\UserCode\bin\Debug\BusinessEntity.dll
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\UserCode\bin\Debug\BusinessEntity.pdb
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\UserCode\obj\Debug\UserCode.csprojResolveAssemblyReference.cache
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\UserCode\obj\Debug\UserCode.dll
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\UserCode\obj\Debug\UserCode.pdb
