@@ -149,10 +149,10 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="center" colspan="6">
+                                          <%--  <td align="center" colspan="6">
                                                 <asp:Button ID="btnRegresar" runat="server" CssClass="buttonVerde" onclick="btnRegresar_Click" onClientClick="history.go(-1);return false;" Text="Regresar" Width="30%" />
                                                 <asp:Button ID="btnAgregar" runat="server" CssClass="buttonVerde" onclick="btnAgregar_Click" Text="Agregar" Width="30%" />
-                                            </td>
+                                            </td>--%>
                                         </tr>
                                     </caption>
                                 </table>
