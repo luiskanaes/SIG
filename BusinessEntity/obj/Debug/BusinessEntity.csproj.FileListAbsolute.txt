@@ -5,6 +5,6 @@ D:\CGO\SIG\SolSystem\BusinessEntity\obj\Debug\BusinessEntity.dll
 D:\CGO\SIG\SolSystem\BusinessEntity\obj\Debug\BusinessEntity.pdb
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessEntity\bin\Debug\BusinessEntity.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessEntity\bin\Debug\BusinessEntity.pdb
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessEntity\obj\Debug\BusinessEntity.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessEntity\obj\Debug\BusinessEntity.pdb
+D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache

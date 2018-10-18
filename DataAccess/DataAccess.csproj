@@ -101,6 +101,7 @@
     <Compile Include="DA_Seguridad.cs" />
     <Compile Include="DA_SOLPED.cs" />
     <Compile Include="DA_SOL_ANDAMIOS.cs" />
+    <Compile Include="DA_TAREO_EMPLEADOS.cs" />
     <Compile Include="DA_TBL_RequerimientoSubDetalle.cs" />
     <Compile Include="DA_TBSOLICITUD_PERMISOS.cs" />
     <Compile Include="DA_TBSOLICITUD_PERMISOS_DIA.cs" />

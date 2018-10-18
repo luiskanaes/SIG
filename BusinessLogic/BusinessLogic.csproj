@@ -97,6 +97,7 @@
     <Compile Include="BL_Session.cs" />
     <Compile Include="BL_SOLPED.cs" />
     <Compile Include="BL_SOL_ANDAMIOS.cs" />
+    <Compile Include="BL_TAREO_EMPLEADOS.cs" />
     <Compile Include="BL_TBL_RequerimientoSubDetalle.cs" />
     <Compile Include="BL_TBSOLICITUD_PERMISOS.cs" />
     <Compile Include="BL_TBSOLICITUD_PERMISOS_DIA.cs" />

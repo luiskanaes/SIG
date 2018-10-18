@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#"  MasterPageFile="~/Templates/MPWeb.master" AutoEventWireup="true" CodeFile="frmPrincipal_Tareo.aspx.cs" Inherits="RRHH_TAREO_EMP_frmPrincipal_Tareo" %>
- 
+﻿<%@ Page Language="C#"  MasterPageFile="~/Templates/MPWeb.master" AutoEventWireup="true" CodeFile="frmSELEC_LIDER_GRUPO.aspx.cs" Inherits="RRHH_TAREO_EMP_frmSELEC_LIDER_GRUPO" %>
+
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -126,20 +126,22 @@
                                 <table class="style1">
                                 
                                     <caption>
-                                        <h2 class="subtitulodelgado">PRINCIPAL </h2>
+                                        <h2 class="subtitulodelgado">
+                                            <label>
+                                            ASIGNAR LIDER DE GRUPO</label></h2>
                                         </div>
                                         </td>
                                         </tr>
 
-                       
+                        
+                            
                             
                          <tr>
                               
-                             <td class="auto-style1"> <label>Empresa</label>
-                      <asp:DropDownList ID="ddlEmpresas" runat="server" CssClass="ddl" AutoPostBack="True" OnSelectedIndexChanged="ddlEmpresas_SelectedIndexChanged"></asp:DropDownList>
+                             <td class="auto-style1"> &nbsp;<asp:DropDownList ID="ddlEmpleadosDisponibles" runat="server" CssClass="ddl" AutoPostBack="True" OnSelectedIndexChanged="ddlEmpleadosDisponibles_SelectedIndexChanged"></asp:DropDownList>
                                               </td>
                              <td> 
-                                                <asp:Button ID="btnBuscar" runat="server" Text="BUSCAR"  OnClick="btnBuscar_Click"   />
+                                                <asp:Button ID="btnAgregar" runat="server" Text="AGREGAR"  OnClick="btnAgregar_Click"   />
                                                  </td>
 
                          </tr>
@@ -151,15 +153,16 @@
 
 
                                             <td colspan="6">
-                                                <asp:GridView ID="gridPersonal" runat="server" AutoGenerateColumns="False" CssClass="mGridAzul" DataKeyNames="UBICACION" Width="100%">
+                                                 
+                                                  <asp:GridView ID="gridPersonal" runat="server" AutoGenerateColumns="False" CssClass="mGridAzul" DataKeyNames="DNI" Width="100%">
                                                     <Columns>
                                                       <%--  <asp:BoundField DataField="Row" HeaderText="Nro." SortExpression="Row" />--%>
-                                                        <asp:BoundField DataField="UBICACION" HeaderText="UBICACION" SortExpression="UBICACION" />
-                                                        <asp:BoundField DataField="CANT_EMP" HeaderText="CANT_EMP" SortExpression="CANT_EMP" />
-                                                        <asp:BoundField DataField="ASIGNADOS" HeaderText="ASIGNADOS" SortExpression="ASIGNADOS" />
+                                                        <asp:BoundField DataField="DNI" HeaderText="DNI" SortExpression="DNI" />
+                                                        <asp:BoundField DataField="NOMBRES" HeaderText="NOMBRES" SortExpression="NOMBRES" />
+                                                       <%-- <asp:BoundField DataField="ASIGNADOS" HeaderText="ASIGNADOS" SortExpression="ASIGNADOS" />
                                                         <asp:BoundField DataField="SIN_ASIGNAR" HeaderText="SIN_ASIGNAR" SortExpression="SIN_ASIGNAR" />
-                                                        <asp:BoundField DataField="CANT_EQUIPOS" HeaderText="CANT_EQUIPOS" SortExpression="CANT_EQUIPOS" />
-                                                        <asp:TemplateField HeaderText="Editar Requerimiento">
+                                                        <asp:BoundField DataField="CANT_EQUIPOS" HeaderText="CANT_EQUIPOS" SortExpression="CANT_EQUIPOS" />--%>
+                                                        <asp:TemplateField HeaderText="ELIMINAR LIDER DE GRUPO">
                                                             <ItemTemplate>
                                                                 <%-- <asp:ImageButton ID="btnSeleccionarRequerimiento" runat="server" 
                                                                 CommandArgument='<%# Eval("DES_DNI") %>' 
@@ -169,6 +172,7 @@
                                                         </asp:TemplateField>
                                                     </Columns>
                                                 </asp:GridView>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -186,6 +190,7 @@
                         <td align="center">
                                        <%-- <asp:Panel ID="pnlPopup" runat="server" CssClass="modalPopup" Width="65%">--%>
                         <%--</asp:Panel>--%>
+                                       <asp:Button ID="btnSiguiente" runat="server" OnClick="btnSiguiente_Click" Text="SIGUIENTE" />
                         </td>
                     </tr>
                 </table>

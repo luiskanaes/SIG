@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#"  MasterPageFile="~/Templates/MPWeb.master" AutoEventWireup="true" CodeFile="frmPrincipal_Tareo.aspx.cs" Inherits="RRHH_TAREO_EMP_frmPrincipal_Tareo" %>
- 
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Templates/MPWeb.master" CodeFile="frmAsignarEmpGrupoLider.aspx.cs" Inherits="RRHH_TAREO_EMP_frmAsignarEmpGrupoLider" %>
+
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -66,8 +66,14 @@
             height: 21px;
         }
     .auto-style1 {
-        width: 827px;
+        width: 340px;
     }
+        .auto-style2 {
+            width: 283px;
+        }
+        .auto-style3 {
+            width: 262px;
+        }
     </style>
 </asp:Content>
 
@@ -126,7 +132,7 @@
                                 <table class="style1">
                                 
                                     <caption>
-                                        <h2 class="subtitulodelgado">PRINCIPAL </h2>
+                                        <h2 class="subtitulodelgado">ASIGNAR EMPLEADO A LIDER DE GRUPO</h2>
                                         </div>
                                         </td>
                                         </tr>
@@ -138,7 +144,29 @@
                              <td class="auto-style1"> <label>Empresa</label>
                       <asp:DropDownList ID="ddlEmpresas" runat="server" CssClass="ddl" AutoPostBack="True" OnSelectedIndexChanged="ddlEmpresas_SelectedIndexChanged"></asp:DropDownList>
                                               </td>
+                             <td class="auto-style3">
+                                 <label>Ubicacion</label>
+                                   <asp:DropDownList ID="ddlUbicacion" runat="server" AutoPostBack="True" CssClass="ddl" OnSelectedIndexChanged="ddlUbicacion_SelectedIndexChanged">
+                                                <asp:ListItem>OF CENTRAL PISO OCHO</asp:ListItem>
+                                                <asp:ListItem>OF CENTRAL PISO ONCE</asp:ListItem>
+                                                <asp:ListItem>OF CENTRAL PISO SEIS</asp:ListItem>
+                                                <asp:ListItem>OFICINA CENTRAL MIRAFLORES</asp:ListItem>
+                                                <asp:ListItem>OFICINA CENTRAL ATE</asp:ListItem>
+                                                <asp:ListItem>OFICINA CENTRAL ATE LOGISTICA</asp:ListItem>
+                                                <asp:ListItem>EQUIPOS HUARAZ ANTAMINA</asp:ListItem>
+                                                <asp:ListItem>EQUIPOS TUMBES PACIFIC</asp:ListItem>
+                                                </asp:DropDownList>
+                             </td>
+                             <td class="auto-style2">
+                                  <label>Lider</label>
+                                   
+                                                <asp:DropDownList ID="ddlLider" runat="server" AutoPostBack="True" CssClass="ddl" OnSelectedIndexChanged="ddlLider_SelectedIndexChanged">
+                                                    
+                                                </asp:DropDownList>
+                             </td>
                              <td> 
+                                            
+                                              
                                                 <asp:Button ID="btnBuscar" runat="server" Text="BUSCAR"  OnClick="btnBuscar_Click"   />
                                                  </td>
 
@@ -154,19 +182,19 @@
                                                 <asp:GridView ID="gridPersonal" runat="server" AutoGenerateColumns="False" CssClass="mGridAzul" DataKeyNames="UBICACION" Width="100%">
                                                     <Columns>
                                                       <%--  <asp:BoundField DataField="Row" HeaderText="Nro." SortExpression="Row" />--%>
-                                                        <asp:BoundField DataField="UBICACION" HeaderText="UBICACION" SortExpression="UBICACION" />
-                                                        <asp:BoundField DataField="CANT_EMP" HeaderText="CANT_EMP" SortExpression="CANT_EMP" />
-                                                        <asp:BoundField DataField="ASIGNADOS" HeaderText="ASIGNADOS" SortExpression="ASIGNADOS" />
+                                                        <asp:BoundField DataField="DNI" HeaderText="DNI" SortExpression="DNI" />
+                                                        <asp:BoundField DataField="NOMBRES" HeaderText="NOMBRES" SortExpression="NOMBRES" />
+                                                       <%-- <asp:BoundField DataField="ASIGNADOS" HeaderText="ASIGNADOS" SortExpression="ASIGNADOS" />
                                                         <asp:BoundField DataField="SIN_ASIGNAR" HeaderText="SIN_ASIGNAR" SortExpression="SIN_ASIGNAR" />
-                                                        <asp:BoundField DataField="CANT_EQUIPOS" HeaderText="CANT_EQUIPOS" SortExpression="CANT_EQUIPOS" />
-                                                        <asp:TemplateField HeaderText="Editar Requerimiento">
+                                                        <asp:BoundField DataField="CANT_EQUIPOS" HeaderText="CANT_EQUIPOS" SortExpression="CANT_EQUIPOS" />--%>
+                                                      <%--  <asp:TemplateField HeaderText="SELECCIONAR EMPLEADO">
                                                             <ItemTemplate>
-                                                                <%-- <asp:ImageButton ID="btnSeleccionarRequerimiento" runat="server" 
+                                                                 <asp:ImageButton ID="btnSeleccionarRequerimiento" runat="server" 
                                                                 CommandArgument='<%# Eval("DES_DNI") %>' 
                                                                 ImageUrl="~/imagenes/pencil_add.ico" OnClick="Seleccionar_REQUERIMIENTO" 
-                                                                ToolTip="Seleccionar" />--%>
+                                                                ToolTip="Seleccionar" /> 
                                                             </ItemTemplate>
-                                                        </asp:TemplateField>
+                                                        </asp:TemplateField>--%>
                                                     </Columns>
                                                 </asp:GridView>
                                             </td>
@@ -216,7 +244,6 @@
         BackgroundCssClass="modalBackground" PopupControlID="panelUpdateProgress" />
 </asp:Content>
     
-
 
 
 

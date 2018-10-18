@@ -38,14 +38,8 @@ D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bi
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\microsoft.practices.enterpriselibrary.common.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\microsoft.practices.enterpriselibrary.data.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\UserCode.dll
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.dll
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\BusinessEntity.pdb
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\UserCode.pdb
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.pdb
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\obj\Debug\DataAccess.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\DataAccess\obj\Debug\DataAccess.pdb

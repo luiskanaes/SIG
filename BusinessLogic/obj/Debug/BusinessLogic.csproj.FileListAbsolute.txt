@@ -46,15 +46,9 @@ D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\UserCode.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Interception.dll
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\BusinessEntity.pdb
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\DataAccess.pdb
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\UserCode.pdb
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\bin\Debug\Microsoft.Practices.Unity.pdb
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\obj\Debug\BusinessLogic.dll
 D:\SSK\DESARROLLO\PROYECTO\CGO\TAREO EMPLEADOS WEB APROB\SolSystem\BusinessLogic\obj\Debug\BusinessLogic.pdb
